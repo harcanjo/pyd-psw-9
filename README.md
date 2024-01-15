@@ -26,3 +26,21 @@ python manage.py runserver
 
 python manage.py startapp usuarios
 ```
+
+## Register
+
+At stydy_async/urls.py
+
+```py
+path('usuarios/', include('usuarios.urls')),
+```
+
+At usuarios create a urls.py
+
+```py
+from django.urls import path
+from . import views
+urlpatterns = [
+ path('cadastro/', views.cadastro, name='cadastro'),
+]
+```
