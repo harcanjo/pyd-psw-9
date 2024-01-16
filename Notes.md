@@ -408,4 +408,9 @@ Exiba as mensagens:
 
 ---
 
-
+## Criar superusuario
+python manage.py createsuperuser
+Usuario: appadmin
+email:
+password: 1234
+password (again): 1234
