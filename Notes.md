@@ -409,6 +409,7 @@ Exiba as mensagens:
 ---
 
 ## Criar superusuario
+
 python manage.py createsuperuser
 Usuario: appadmin
 email:
